@@ -1,0 +1,17 @@
+h1, p{
+    text-align: center;
+}
+
+li:hover{
+
+    background-color: rgb(225, 196, 31);
+}
+
+li:active {
+
+    font-family: fantasy;
+}
+
+.list{
+    list-style: none;
+}
