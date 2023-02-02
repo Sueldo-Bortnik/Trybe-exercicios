@@ -57,24 +57,33 @@
   </head>
   <body>
     <script>
-        const h1 = document.createElement('h1');
-            h1.innerText = 'TrybeTrip - Agência de Viagens';
-            document.body.appendChild(h1)
-
-   const tag = document.createElement('main');
-        tag.className = 'main-content';
-        document.body.appendChild(tag);
+       
+       //requisito 1:
+const h1 = document.createElement('h1');
+    h1.innerText = 'TrybeTrip - Agência de Viagens';
+    document.body.appendChild(h1)
+       
+       //requisito 2:
+const tag = document.createElement('main');
+    tag.className = 'main-content';
+    document.body.appendChild(tag);
         
-    
-    const addSecInMain = document.createElement('section');
+        //requisito 3:
+const addSecInMain = document.createElement('section');
     addSecInMain.className = 'center-content';
     tag.appendChild(addSecInMain);
        // console.log(addSecInMain)
-
-       const addParagraph = document.createElement('p');
-       addParagraph.innerHTML = 'Algum Texto kkkkk';
-       addSecInMain.appendChild(addParagraph);
-       
+        
+       //requisito 4:
+const addParagraph = document.createElement('p');
+    addParagraph.innerHTML = 'Algum Texto kkkkk';
+    addSecInMain.appendChild(addParagraph);
+        
+       //requisito 5:
+const addSection = document.createElement('section');
+    addSection.className = 'left-content';
+    tag.appendChild(addSection);
+    
     </script>
   </body>
 </html>
