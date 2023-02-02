@@ -83,7 +83,7 @@ const addParagraph = document.createElement('p');
 const addSection = document.createElement('section');
     addSection.className = 'left-content';
     tag.appendChild(addSection);
-    
+
        //requisito 6:
 const addSection2 = document.createElement('section');
     addSection2.className = 'rigth-content';
@@ -95,7 +95,18 @@ const addImage = document.createElement('img');
       addImage.scr = 'https://picsum.photos/200';
       addSection.appendChild(addImage);
 
+      //requisito 8:
+const elementUl = document.createElement('ul');
+      addSection2.appendChild(elementUl);
 
+const arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+        'Sete', 'Oito', 'Nove', 'Dez']
+      for (let num in arrayNumbers) {
+        const elementLi = document.createElement('li');
+        elementLi.innerHTML = arrayNumbers[num];
+        elementUl.appendChild(elementLi);
+      }
+        
     </script>
   </body>
 </html>
