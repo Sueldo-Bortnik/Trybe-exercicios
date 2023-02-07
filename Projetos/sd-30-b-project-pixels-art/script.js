@@ -21,7 +21,7 @@ button.addEventListener('click', () => {
 // requisito 5: 
 
 
-// requisito 6:
+// requisito 6 e 7:
 
 const board = (num) => {
     const pBoard = document.getElementById('pixel-board');
@@ -30,7 +30,7 @@ const board = (num) => {
       const pLine = document.createElement('div');
       pLine.classList.add('line');
       pBoard.appendChild(pLine);
-      
+
       for (let i2 = 0; i2 < num; i2 += 1) {
         const pItem = document.createElement('div');
         pItem.classList.add('pixel');
