@@ -1,0 +1,30 @@
+#color-palette {
+    display: inline-block;
+    margin: 3px;
+    border: 1px solid black;
+   
+}
+button {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#button-random-color{
+    
+    align-content: center;
+    border-radius: 30%;
+    width: 200px;
+    height: 50px;
+    display: flex;
+}
+
+.pixel {
+    border: 1px solid black;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin: 0 5px;
+  }
