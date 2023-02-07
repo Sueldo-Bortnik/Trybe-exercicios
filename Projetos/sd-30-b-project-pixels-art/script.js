@@ -39,3 +39,5 @@ const board = (num) => {
     }
   };
   board(5);
+
+  // resuitiso 8:
